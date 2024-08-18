@@ -15,7 +15,7 @@ public class CustomerOrderServiceImpl implements CustomerOrderServiceLess64 {
     @Autowired
     CustomerOrderRepositoryLess64 customerOrderRepository;
     @Autowired
-    CustomerServiceLess63 customerService;//בין סרביסים נשתמש בסרסיס ולא רפוזיטורי
+    CustomerServiceLess63 customerService;//בין סרביסים נשתמש בסרביס ולא רפוזיטורי
 
     @Override
     public CustomerOrderResponse createCustomerOrder(CustomerOrderRequest customerOrderRequest) throws Exception {
